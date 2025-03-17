@@ -4,11 +4,11 @@ const rows = [];
 
 function padRow(rowNumber, rowCount) {
   return (
-    " ".repeat(rowCount - rowNumber) +
+    ".".repeat(rowCount - rowNumber) +
     character.repeat(2 * rowNumber - 1) +
-    " ".repeat(rowCount - rowNumber)
+    ".".repeat(rowCount - rowNumber)
   );
 }
 
-cost result = padRow(2, 5);
+const result = padRow(2, 5);
 console.log(result);
