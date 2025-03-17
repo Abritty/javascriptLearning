@@ -10,5 +10,26 @@ function padRow(rowNumber, rowCount) {
   );
 }
 
-const result = padRow(2, 5);
+for (let i = 0; i < count; i += 1) { 
+  rows.push(padRow(i + 1, count)); 
+}
+
+let result = "";
+
+for (const row of rows) {
+  result = result + row + "\n"; 
+}
+
 console.log(result);
+
+/* 
+Output:
+.......#.......
+......###......
+.....#####.....
+....#######....
+...#########...
+..###########..
+.#############.
+
+*/
