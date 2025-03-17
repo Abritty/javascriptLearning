@@ -10,4 +10,5 @@ function padRow(rowNumber, rowCount) {
   );
 }
 
-padRow(2, 5);
+cost result = padRow(2, 5);
+console.log(result);
