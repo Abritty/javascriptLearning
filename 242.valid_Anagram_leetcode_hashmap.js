@@ -8,7 +8,7 @@ function isAnagram(s, t) {
   }
 
   for (let char of t) {
-    if (!charCount[char]) {
+    if (!charCount[char]) { // If the character is not in the map or its count is zero
       return false;
     }
     charCount[char]--;
