@@ -19,4 +19,4 @@ console.log(result); // Output: 7
 // The outerResult variable is a closure that has access to the x variable from the outerFunc.
 // When the outerResult is called with 2, it adds 2 to the x variable (5) and returns 7.
 // The result is then logged to the console.
-//
+// In simpler terms, a closure allows a function to "remember" the variables from its outer scope, even after the outer function has finished executing.
