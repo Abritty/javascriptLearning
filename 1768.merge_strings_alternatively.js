@@ -18,6 +18,6 @@ var mergeAlternately = function (word1, word2) {
 
   return merged;
 };
-console.log(mergeAlternately("abc", "123")); // Output: "apbqcr"
-console.log(mergeAlternately("ab", "123"));
-console.log(mergeAlternately("abcd", "12"));
+console.log(mergeAlternately("abc", "123")); //output: "a1b2c3"
+console.log(mergeAlternately("ab", "123")); //output: "a1b23"
+console.log(mergeAlternately("abcd", "12")); //output: "a1b2cd"
