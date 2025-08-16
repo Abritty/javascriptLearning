@@ -20,9 +20,9 @@ async function getData() {
   try {
     console.log("Fetching data...");
     const result = await fetchData(); // Wait for the Promise to resolve
-    console.log(result); // Log the resolved value
+    console.log('result', result); // Log the resolved value
   } catch (error) {
-    console.error(error); // Handle any errors
+    console.error('error:', error); // Handle any errors
   }
 }
 
