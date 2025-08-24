@@ -14,15 +14,12 @@ const processOrder = (customer, callback) => {
 
 const serveOrder = (customer) => {
   console.log(`Serving order to ${customer}`);
-}
-
+};
 
 takeOrder("John", (customer) => {
   processOrder(customer, (customer) => {
     serveOrder(customer);
-  }
-  );
-}
-);
+  });
+});
 
 console.log("Hello!!");
