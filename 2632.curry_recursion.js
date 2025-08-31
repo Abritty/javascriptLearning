@@ -21,6 +21,6 @@ function add(a, b, c) {
 
 const curriedAdd = curry(add);
 
-console.log(curriedAdd(1)(2)(3)); // Output: 6
-console.log(curriedAdd(1, 4)(3)); // Output: 6
-console.log(curriedAdd(1, 9, 3)); // Output: 6
+console.log(curriedAdd(1)(2)(3)); 
+console.log(curriedAdd(1, 4)(3)); 
+console.log(curriedAdd(1, 9, 3));
