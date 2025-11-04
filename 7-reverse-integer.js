@@ -5,5 +5,6 @@ var reverse = function(x) {
     return 0;
   }
 
+  console.log(reversed);
   return reversed * Math.sign(x);
 };
